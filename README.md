@@ -1,29 +1,29 @@
 # Educational Website Project
 
-A web-based platform designed to provide users with access to educational resources. This project focuses on frontend development, layout design, and user navigation.
+A website developed for delivering access to educational resources. It is a frontend project for designing the user interface and navigation.
 
 ## Features
-- Multi-page website structure
-- Organized navigation system
-- Responsive layout design
-- Display of educational content/resources
-- Clean and structured user interface
+- Multisite page setup
+- Proper navigation scheme
+- Responsive page layout
+- Delivery of educational information
+- Properly structured UI
 
-## Technologies Used
+## Coding Languages Used
 - HTML5
 - CSS3
 - JavaScript
 
-## Project Purpose
-This project was developed as part of an academic assignment to demonstrate understanding of web development fundamentals and user interface design.
+## Purpose of this Assignment
+The assignment has been created in order to deliver the knowledge gained through an academic project about basic web development concepts.
 
-## Concepts Demonstrated
-- Semantic HTML structure
-- CSS styling and layout design
-- Basic JavaScript interactivity
-- Navigation and user experience design
+## Web Development Concepts
+- HTML semantics
+- CSS styling/layout design
+- JavaScript interactions
+- Navigation/user experience design
 
-## Future Improvements
-- Add search functionality
-- Integrate backend/database for dynamic content
-- Improve responsiveness for mobile devices
+## Possible Upgrades
+- Add search features
+- Include backend/databases
+- Enhance responsiveness
