@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Past Paper Hub JA | Checkout</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">PP</span>
+      <span>Past Paper Hub JA</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="products.html">Products</a></li>
+        <li><a class="nav-link" href="cart.html">Cart <span data-cart-count>0</span></a></li>
+        <li><a class="nav-link" href="checkout.html">Checkout</a></li>
+        <li><a class="nav-link" href="login.html">Login</a></li>
+        <li><a class="nav-link" href="register.html">Register</a></li>
+        <li><a class="nav-link" href="about.html">About Us</a></li>
+        <li><a class="nav-link" href="../Assets/StoryBoard.pdf" target="_blank" rel="noopener noreferrer">Storyboard</a></li>
+        <li><a class="nav-link" href="https://github.com/jelorniejarrett-2402228/Past_Paper_Hub_JA_" target="_blank" rel="noopener noreferrer">Repository</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Checkout</h2>
+          <p>Enter shipping details and confirm your order.</p>
+        </div>
+      </div>
+
+      <div class="checkout-layout">
+        <div class="form-card">
+          <form id="checkoutForm">
+            <div class="form-grid">
+              <div>
+                <label for="shipName">Full Name</label>
+                <input id="shipName" type="text" placeholder="Name on the order">
+              </div>
+              <div>
+                <label for="shipEmail">Email</label>
+                <input id="shipEmail" type="email" placeholder="customer@email.com">
+              </div>
+              <div class="span-all">
+                <label for="shipAddress">Shipping Address</label>
+                <textarea id="shipAddress" rows="4" placeholder="Enter shipping address"></textarea>
+              </div>
+              <div>
+                <label for="amountPaid">Amount Being Paid</label>
+                <input id="amountPaid" type="text" readonly>
+              </div>
+              <div>
+                <label for="paymentMethod">Payment Method</label>
+                <select id="paymentMethod">
+                  <option>Cash on Delivery</option>
+                  <option>Card</option>
+                  <option>Bank Transfer</option>
+                  <option>Mobile Wallet</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="checkout-actions">
+              <button id="clearAllBtn" class="btn btn-outline" type="button">Clear All</button>
+              <button id="checkOutBtn" class="btn btn-primary" type="button">Check Out</button>
+              <button id="closeBtn" class="btn btn-soft" type="button">Close</button>
+            </div>
+          </form>
+        </div>
+
+        <aside class="summary-card">
+          <h3>Order Summary</h3>
+          <div id="checkoutSummary" class="summary-list"></div>
+          <p class="form-help">Tax and discount are calculated automatically from the cart.</p>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <div id="confirmModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <h3>Confirm Order</h3>
+      <p>Do you want to confirm this purchase now?</p>
+      <div class="checkout-actions">
+        <button id="confirmCheckoutBtn" class="btn btn-primary" type="button">Confirm</button>
+        <button id="cancelCheckoutBtn" class="btn btn-outline" type="button">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

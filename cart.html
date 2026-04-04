@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Past Paper Hub JA | Cart</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">PP</span>
+      <span>Past Paper Hub JA</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="products.html">Products</a></li>
+        <li><a class="nav-link" href="cart.html">Cart <span data-cart-count>0</span></a></li>
+        <li><a class="nav-link" href="checkout.html">Checkout</a></li>
+        <li><a class="nav-link" href="login.html">Login</a></li>
+        <li><a class="nav-link" href="register.html">Register</a></li>
+        <li><a class="nav-link" href="about.html">About Us</a></li>
+        <li><a class="nav-link" href="../Assets/StoryBoard.pdf">Storyboard</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Cart</h2>
+          <p>Review your items, quantities, and totals.</p>
+        </div>
+      </div>
+
+      <div class="checkout-layout">
+        <div class="table-wrap">
+          <table aria-label="Shopping cart">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Sub-total</th>
+                <th>Discount</th>
+                <th>Remove</th>
+              </tr>
+            </thead>
+            <tbody id="cartBody"></tbody>
+          </table>
+        </div>
+
+        <aside class="summary-card">
+          <h3>Cart Summary</h3>
+          <div id="cartTotals" class="summary-list"></div>
+          <div class="cart-actions">
+            <a class="btn btn-primary" href="checkout.html">Go to Checkout</a>
+            <button id="continueShoppingBtn" class="btn btn-outline" type="button">Continue Shopping</button>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
