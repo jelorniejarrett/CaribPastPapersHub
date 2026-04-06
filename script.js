@@ -6,7 +6,7 @@ const PRODUCTS = [
     price: 1800,
     category: "Past Papers",
     description: "A downloadable pack with past papers and answers.",
-    image: "../Assets/cape-it.jpg"
+    image: "cape-it.jpg"
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ const PRODUCTS = [
     price: 2400,
     category: "Past Papers",
     description: "Exam practice for CAPE Information Technology.",
-    image: "../Assets/cape-it.jpg"
+    image: "cape-it.jpg"
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const PRODUCTS = [
     price: 1500,
     category: "Templates",
     description: "Editable templates for CSEC and CAPE SBAs.",
-    image: "../Assets/sba-templates.jpg"
+    image: "sba-templates.jpg"
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ const PRODUCTS = [
     price: 1200,
     category: "Study Guides",
     description: "Quick revision notes for major subjects.",
-    image: "../Assets/study-guides.jpg"
+    image: "study-guides.jpg"
   }
 ];
 
