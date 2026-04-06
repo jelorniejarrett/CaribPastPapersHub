@@ -7,7 +7,7 @@ const PRODUCTS = [
     price: 1800,
     category: "Past Papers",
     description: "A downloadable pack with past papers and answers.",
-    image: "cape-it.jpg"
+    image: "csec-maths.jpg"
   },
   {
     id: 2,
